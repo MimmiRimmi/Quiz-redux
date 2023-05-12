@@ -76,11 +76,11 @@ export const [
     };
   },
   answerQuestion: (state, answer) => {
+    console.log(answer);
+    console.log(state.questions[state.currentQuestion]?.correctAnswer);
     const score =
       state.score +
-      (answer === state.questions[state.currentQuestion]?.correctAnswer
-        ? 1
-        : 0);
+      (answer == state.questions[state.currentQuestion]?.correctAnswer ? 1 : 0);
     if (state.currentQuestion === state.questions.length - 1) {
       return {
         ...state,
