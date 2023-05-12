@@ -7,9 +7,7 @@ import "./index.css";
 import { Provider } from "hooks-for-redux";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  // <React.StrictMode>
   <Provider>
     <App />
   </Provider>
-  // </React.StrictMode>,
 );

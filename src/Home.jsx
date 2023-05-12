@@ -13,8 +13,10 @@ export default function Home() {
     } else {
       return (
         <div className="bg-galaxy bg-cover h-screen w-full text-white font-roboto">
-          <div className="flex flex-col items-center pt-20">
-            <h1 className="text-3xl">Challenge your knowledge on this quiz</h1>
+          <div className="flex flex-col items-center pt-32 md:pt-20 px-6 md:px-0">
+            <h1 className="text-2xl md:text-3xl">
+              Challenge your knowledge on this quiz
+            </h1>
             <button
               className="text-3xl border border-white py-4 px-6 mt-16 cursor-pointer hover:bg-sky-700 transition ease-in-out duration-150 "
               onClick={startQuiz}

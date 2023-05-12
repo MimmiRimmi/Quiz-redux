@@ -24,7 +24,7 @@ export default function Admin() {
   }
 
   return (
-    <div className="bg-sky-900 py-14 px-20 h-full w-full text-white font-roboto">
+    <div className="bg-sky-900 py-14 px-6 md:px-20 h-full w-full text-white font-roboto">
       <div className="pl-8">
         <h1 className="text-2xl">ADMIN QUIZ</h1>
         <p class="py-4">Create your own questions for the quiz</p>
@@ -70,7 +70,9 @@ export default function Admin() {
           save task
         </button>
       </div>
-      <p className="text-xl py-8 pl-8">Current questions in the quiz! </p>
+      <p className="text-xl md:py-8 py-12 pl-8">
+        Current questions in the quiz!{" "}
+      </p>
       <Question />
     </div>
   );

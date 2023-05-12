@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="flex justify-between items-center font-roboto font-bold text-lg h-16">
-      <h1 className="text-2xl pl-10">Quiz !</h1>
-      <ul className="flex gap-10 mr-10 cursor-pointer">
+      <h1 className="text-2xl pl-4 md:pl-10">Quiz!</h1>
+      <ul className="flex gap-10 mr-4 md:mr-10 cursor-pointer">
         <li className="hover:text-sky-700">
           <NavLink
             className={({ isActive }) =>

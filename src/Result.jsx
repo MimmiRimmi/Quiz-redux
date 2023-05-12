@@ -8,7 +8,7 @@ export default function Result() {
   console.log(numQuestions);
   return (
     <div className="bg-galaxy bg-cover h-screen w-full text-white font-roboto pt-20 flex flex-col items-center ">
-      <div className="flex flex-col font-bold items-center px-12 pt-10 pb-24 border border-white">
+      <div className="flex flex-col font-bold items-center px-12 pt-10 pb-24 mx-2 md:mx-0 border border-white">
         <h2 className="text-3xl">Result</h2>
         <p className="text-lg mt-8">
           You scored: {score} / {numQuestions} questions
